@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "s3nha-stuffs",
+	"version": "${version}",
+	"name": "s3nha-stuffs",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Joashneves"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/joashneves/minecraft-mod-s3nha-stuffs"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/s3nha-stuffs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.joashneves.s3nhastuff.S3nhaStuffs"
+		],
+		"fabric-datagen": [
+			"net.joashneves.s3nhastuff.S3nhaStuffsDataGenerator"
+		],
+		"client": [
+			"net.joashneves.s3nhastuff.S3nhaStuffClient"
+		]
+	},
+	"mixins": [
+		"s3nha-stuffs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

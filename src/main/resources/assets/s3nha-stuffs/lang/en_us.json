@@ -1,0 +1,10 @@
+{
+  "item.s3nha-stuffs.cobalt_ingot" : "Cobalt Ingot",
+  "item.s3nha-stuffs.raw_cobalt" : "Raw Cobalt",
+
+  "block.s3nha-stuffs.cobalt_ore": "Cobalt ore",
+  "block.s3nha-stuffs.cobalt_deepslate_ore" : "Cobalt Deepslate ore",
+
+  "itemGroup.s3nha-stuffs.mod_s3nha_blocks" : "Cobalt Ore",
+  "itemGroup.s3nha-stuffs.mod_s3nha_items" : "Cobalt Ingot"
+}
