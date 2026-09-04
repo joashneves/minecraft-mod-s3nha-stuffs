@@ -1,9 +1,14 @@
-// 1.21.1	2026-09-02T18:51:28.897281786	s3nha-stuffs/Model Definitions
+// 1.21.1	2026-09-03T23:43:25.992949936	s3nha-stuffs/Model Definitions
+5e6e235a89cc6aa7949c975821207208eee50bc0 assets/s3nha-stuffs/models/item/cobalt_sword.json
 536fd110189e83f4298895162d031ad89f081429 assets/s3nha-stuffs/models/item/cobalt_ore.json
-c598668860773996a0cd78689397c5a061720428 assets/s3nha-stuffs/models/item/cobalt_ingot.json
-fb6f9f0a52a4faecceb4b12354b3fdcebb823326 assets/s3nha-stuffs/models/item/cobalt_deepslate_ore.json
+838558bc9245c068b94e7fb507ba4ec7628e1a95 assets/s3nha-stuffs/models/item/cobalt_axe.json
 ce6ecb422ac677bdcc282d1605c551280a18d19a assets/s3nha-stuffs/models/item/raw_cobalt.json
+503a11954f330cf5a0aa831ce264891c7e7e73c2 assets/s3nha-stuffs/models/item/cobalt_hoe.json
 5bc199af348718de7bb8bb1015ecdc963df89f7f assets/s3nha-stuffs/blockstates/cobalt_deepslate_ore.json
-e04a08a4046fde1cc3d2ee6b737e31a289f73bb5 assets/s3nha-stuffs/blockstates/cobalt_ore.json
+abdebb3328652d49827ffc1a2cc27075db0f632b assets/s3nha-stuffs/models/item/cobalt_pickaxe.json
 86996655374c2508302412bf5d4da6ff70a94d69 assets/s3nha-stuffs/models/block/cobalt_deepslate_ore.json
 8bc6d6f321fc317c94cc73dd69c682232f6af5f9 assets/s3nha-stuffs/models/block/cobalt_ore.json
+c598668860773996a0cd78689397c5a061720428 assets/s3nha-stuffs/models/item/cobalt_ingot.json
+fb6f9f0a52a4faecceb4b12354b3fdcebb823326 assets/s3nha-stuffs/models/item/cobalt_deepslate_ore.json
+e04a08a4046fde1cc3d2ee6b737e31a289f73bb5 assets/s3nha-stuffs/blockstates/cobalt_ore.json
+e29f1974c856bd79536adc98ef91d5963c625a7f assets/s3nha-stuffs/models/item/cobalt_shovel.json

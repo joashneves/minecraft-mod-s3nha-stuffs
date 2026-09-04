@@ -2,9 +2,16 @@
   "item.s3nha-stuffs.cobalt_ingot" : "Cobalt Ingot",
   "item.s3nha-stuffs.raw_cobalt" : "Raw Cobalt",
 
+  "item.s3nha-stuffs.cobalt_sword": "Cobalt Sword",
+  "item.s3nha-stuffs.cobalt_pickaxe": "Cobalt Pickaxe",
+  "item.s3nha-stuffs.cobalt_axe": "Cobalt Axe",
+  "item.s3nha-stuffs.cobalt_shovel": "Cobalt Shovel",
+  "item.s3nha-stuffs.cobalt_hoe": "Cobalt Hoe",
+
   "block.s3nha-stuffs.cobalt_ore": "Cobalt ore",
   "block.s3nha-stuffs.cobalt_deepslate_ore" : "Cobalt Deepslate ore",
 
   "itemGroup.s3nha-stuffs.mod_s3nha_blocks" : "Cobalt Ore",
   "itemGroup.s3nha-stuffs.mod_s3nha_items" : "Cobalt Ingot"
+
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "s3nha-stuffs:item/cobalt_sword"
+  }
+}

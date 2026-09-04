@@ -21,15 +21,18 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         BlockStateModelGenerator.BlockTexturePool CobaltPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.COBALT_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COBALT_DEEPSLATE_ORE);
-
-
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.COBALT_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_COBALT, Models.GENERATED);
+        // Handheld para mão
+        itemModelGenerator.register(ModItems.COBALT_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COBALT_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COBALT_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COBALT_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COBALT_PICKAXE, Models.HANDHELD);
         //itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
-
     }
 }

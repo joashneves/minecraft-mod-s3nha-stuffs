@@ -2,8 +2,7 @@ package net.joashneves.s3nhastuff.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.joashneves.s3nhastuff.S3nhaStuffs;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -12,6 +11,22 @@ public class ModItems {
 
     public static final Item RAW_COBALT = registerItem("raw_cobalt", new Item(new Item.Settings()));
     public static final Item COBALT_INGOT = registerItem("cobalt_ingot", new Item(new Item.Settings()));
+
+    public static final Item COBALT_SWORD = registerItem("cobalt_sword",
+            new SwordItem(ModToolMaterials.COBALT_INGOT, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COBALT_INGOT,3,-2.4f))));
+    public static final Item COBALT_PICKAXE = registerItem("cobalt_pickaxe",
+            new PickaxeItem(ModToolMaterials.COBALT_INGOT, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COBALT_INGOT, 1, -2.8f))));
+    public static final Item COBALT_AXE = registerItem("cobalt_axe",
+            new AxeItem(ModToolMaterials.COBALT_INGOT, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.COBALT_INGOT, 6, -3.2f))));
+    public static final Item COBALT_HOE = registerItem("cobalt_hoe",
+            new HoeItem(ModToolMaterials.COBALT_INGOT, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COBALT_INGOT, 0, 3f))));
+    public static final Item COBALT_SHOVEL = registerItem("cobalt_shovel",
+            new ShovelItem(ModToolMaterials.COBALT_INGOT, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.COBALT_INGOT, 1.5f, -3f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(S3nhaStuffs.MOD_ID, name), item);

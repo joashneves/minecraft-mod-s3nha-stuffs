@@ -19,6 +19,11 @@ public class ModItemGroups {
                     Text.translatable("itemGroup.s3nha-stuffs.mod_s3nha_items")).entries((displayContext, entries) ->{
                         entries.add(ModItems.COBALT_INGOT);
                         entries.add(ModItems.RAW_COBALT);
+                        entries.add(ModItems.COBALT_AXE);
+                        entries.add(ModItems.COBALT_HOE);
+                        entries.add(ModItems.COBALT_PICKAXE);
+                        entries.add(ModItems.COBALT_SHOVEL);
+                        entries.add(ModItems.COBALT_SWORD);
                     }).build());
 
     public static final ItemGroup MOD_S3NHA_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
