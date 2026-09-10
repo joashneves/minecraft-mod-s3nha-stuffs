@@ -24,6 +24,10 @@ public class ModItemGroups {
                         entries.add(ModItems.COBALT_PICKAXE);
                         entries.add(ModItems.COBALT_SHOVEL);
                         entries.add(ModItems.COBALT_SWORD);
+                        entries.add(ModItems.COBALT_HELMET);
+                        entries.add(ModItems.COBALT_CHESTPLATE);
+                        entries.add(ModItems.COBALT_LEGGINGS);
+                        entries.add(ModItems.COBALT_BOOTS);
                     }).build());
 
     public static final ItemGroup MOD_S3NHA_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

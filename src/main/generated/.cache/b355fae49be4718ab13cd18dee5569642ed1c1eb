@@ -1,1 +1,11 @@
-// 1.21.1	2026-09-03T23:43:25.993691602	s3nha-stuffs/Tags for minecraft:item
+// 1.21.1	2026-09-10T01:18:36.337823042	s3nha-stuffs/Tags for minecraft:item
+9dd1197ac93aacb0930442f65a7ed23084280c5c data/minecraft/tags/item/trimmable_armor.json
+9ca35d58d6055aca538f17a6724dd99dd91e5454 data/minecraft/tags/item/pickaxes.json
+a584f8ac01bbf9ca475b056a9600c5e0feca1405 data/minecraft/tags/item/head_armor.json
+ed9c61187f092a417de57edcb951a23f3a50812f data/minecraft/tags/item/foot_armor.json
+8b13ff277cf7a190381433e4403a06cb31570433 data/minecraft/tags/item/axes.json
+eeaefd6fee0ca4af2d7de69c14f2cb9ac57c8ae8 data/minecraft/tags/item/hoes.json
+2fb26b2809dd11834fe79aab7f822c5f570cca63 data/minecraft/tags/item/swords.json
+a3430f472b80567c790e6ab69479e4ad6637c168 data/minecraft/tags/item/chest_armor.json
+ef22d78c78ad2452ff9d026c6e95b50f63919487 data/minecraft/tags/item/leg_armor.json
+d3de652fb2a01aa40a3a7b4c77419962b943f568 data/minecraft/tags/item/shovels.json

@@ -27,6 +27,18 @@ public class ModItems {
     public static final Item COBALT_SHOVEL = registerItem("cobalt_shovel",
             new ShovelItem(ModToolMaterials.COBALT_INGOT, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.COBALT_INGOT, 1.5f, -3f))));
+    public static final Item COBALT_HELMET = registerItem("cobalt_helmet",
+            new ArmorItem(ModArmorMaterials.COBALT_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item COBALT_CHESTPLATE = registerItem("cobalt_chestplate",
+            new ArmorItem(ModArmorMaterials.COBALT_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item COBALT_LEGGINGS = registerItem("cobalt_leggings",
+            new ArmorItem(ModArmorMaterials.COBALT_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item COBALT_BOOTS = registerItem("cobalt_boots",
+            new ArmorItem(ModArmorMaterials.COBALT_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(S3nhaStuffs.MOD_ID, name), item);

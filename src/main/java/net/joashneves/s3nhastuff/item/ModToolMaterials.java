@@ -11,8 +11,8 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    COBALT_INGOT(BlockTags.INCORRECT_FOR_IRON_TOOL,
-                 500, 6.0f, 2.0f, 14, () -> Ingredient.ofItems(ModItems.COBALT_INGOT));
+    COBALT_INGOT(BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+                 700, 7.0f, 2.5f, 12, () -> Ingredient.ofItems(ModItems.COBALT_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

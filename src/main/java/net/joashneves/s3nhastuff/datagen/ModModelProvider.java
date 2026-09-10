@@ -34,5 +34,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COBALT_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COBALT_PICKAXE, Models.HANDHELD);
         //itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.COBALT_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.COBALT_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.COBALT_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.COBALT_BOOTS);
     }
 }
