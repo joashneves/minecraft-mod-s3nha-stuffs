@@ -1,3 +1,5 @@
-// 1.21.1	2026-09-10T01:18:36.337469912	s3nha-stuffs/Block Loot Tables
+// 1.21.1	2026-09-10T16:23:38.063133298	s3nha-stuffs/Block Loot Tables
 489e163b83bee908021df9f33d3a1f48f74f6e53 data/s3nha-stuffs/loot_table/blocks/cobalt_ore.json
 46400d5d60ed763ba31a4df0649ee5e097236cf9 data/s3nha-stuffs/loot_table/blocks/cobalt_deepslate_ore.json
+0d7f928d3fdacf1dbdc25e0fd88e5a9345c07c1f data/s3nha-stuffs/loot_table/blocks/cobalt_block.json
+efee7f219afd63c3a9c79a066d22d994ed63d2fb data/s3nha-stuffs/loot_table/blocks/raw_cobalt_block.json

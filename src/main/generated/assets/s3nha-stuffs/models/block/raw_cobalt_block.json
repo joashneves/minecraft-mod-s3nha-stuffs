@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "s3nha-stuffs:block/raw_cobalt_block"
+  }
+}

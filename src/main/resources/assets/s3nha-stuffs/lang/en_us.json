@@ -1,6 +1,6 @@
 {
-  "item.s3nha-stuffs.cobalt_ingot" : "Cobalt Ingot",
-  "item.s3nha-stuffs.raw_cobalt" : "Raw Cobalt",
+  "item.s3nha-stuffs.cobalt_ingot": "Cobalt Ingot",
+  "item.s3nha-stuffs.raw_cobalt": "Raw Cobalt",
 
   "item.s3nha-stuffs.cobalt_sword": "Cobalt Sword",
   "item.s3nha-stuffs.cobalt_pickaxe": "Cobalt Pickaxe",
@@ -13,10 +13,11 @@
   "item.s3nha-stuffs.cobalt_leggings": "Cobalt Leggings",
   "item.s3nha-stuffs.cobalt_boots": "Cobalt Boots",
 
-  "block.s3nha-stuffs.cobalt_ore": "Cobalt ore",
-  "block.s3nha-stuffs.cobalt_deepslate_ore" : "Cobalt Deepslate ore",
+  "block.s3nha-stuffs.cobalt_ore": "Cobalt Ore",
+  "block.s3nha-stuffs.cobalt_deepslate_ore": "Cobalt Deepslate Ore",
+  "block.s3nha-stuffs.cobalt_block": "Block of Cobalt",
+  "block.s3nha-stuffs.raw_cobalt_block": "Block of Raw Cobalt",
 
-  "itemGroup.s3nha-stuffs.mod_s3nha_blocks" : "Cobalt Ore",
-  "itemGroup.s3nha-stuffs.mod_s3nha_items" : "Cobalt Ingot"
-
+  "itemGroup.s3nha-stuffs.mod_s3nha_blocks": "S3nha Stuffs - Blocks",
+  "itemGroup.s3nha-stuffs.mod_s3nha_items": "S3nha Stuffs - Items"
 }
