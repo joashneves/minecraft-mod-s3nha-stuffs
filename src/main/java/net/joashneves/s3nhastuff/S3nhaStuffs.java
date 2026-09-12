@@ -3,6 +3,7 @@ package net.joashneves.s3nhastuff;
 import net.fabricmc.api.ModInitializer;
 
 import net.joashneves.s3nhastuff.block.ModBlocks;
+import net.joashneves.s3nhastuff.block.entity.ModBlockEntities;
 import net.joashneves.s3nhastuff.item.ModItemGroups;
 import net.joashneves.s3nhastuff.item.ModItems;
 import net.joashneves.s3nhastuff.world.gen.ModWorldGeneration;
@@ -36,6 +37,8 @@ public class S3nhaStuffs implements ModInitializer {
 		ModItems.registerItems();
 		// Registar blocos (minérios, blocos de armazenamento)
 		ModBlocks.registerBlocks();
+		// Registar block entities (renderização da caneca estilo cabeça de mob)
+		ModBlockEntities.registerBlockEntities();
 
 		// Ativa a geração de minérios de cobalt no mundo (cavernas)
 		ModWorldGeneration.generateModWorldGen();

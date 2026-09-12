@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=1": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=2": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=3": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=4": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=5": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=6": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=7": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=8": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=9": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=10": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=11": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=12": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=13": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=14": {
+      "model": "s3nha-stuffs:block/mug"
+    },
+    "rotation=15": {
+      "model": "s3nha-stuffs:block/mug"
+    }
+  }
+}

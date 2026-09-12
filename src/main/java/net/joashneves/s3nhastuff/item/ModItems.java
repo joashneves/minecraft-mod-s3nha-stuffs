@@ -2,6 +2,8 @@ package net.joashneves.s3nhastuff.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.joashneves.s3nhastuff.S3nhaStuffs;
+import net.joashneves.s3nhastuff.block.ModBlocks;
+import net.joashneves.s3nhastuff.item.custom.MugCocoaItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -40,6 +42,11 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.COBALT_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
 
+    public static final Item MUG = registerItem("mug",
+            new BlockItem(ModBlocks.MUG_BLOCK, new Item.Settings()));
+    public static final Item MUG_COCOA = registerItem("mug_cocoa",
+            new MugCocoaItem(new Item.Settings().maxCount(16).food(ModFoodComponents.MUG_COCOA)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(S3nhaStuffs.MOD_ID, name), item);
     }
@@ -51,6 +58,11 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RAW_COBALT);
             entries.add(COBALT_INGOT);
+        });
+
+        // Bebidas
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+            entries.add(MUG_COCOA);
         });
     }
 

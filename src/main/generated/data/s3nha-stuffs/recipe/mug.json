@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "pattern": [
+    "R R",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "s3nha-stuffs:mug"
+  }
+}

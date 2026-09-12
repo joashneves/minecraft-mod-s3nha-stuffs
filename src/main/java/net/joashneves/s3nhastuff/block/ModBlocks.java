@@ -1,6 +1,7 @@
 package net.joashneves.s3nhastuff.block;
 
 import net.joashneves.s3nhastuff.S3nhaStuffs;
+import net.joashneves.s3nhastuff.block.custom.MugBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -59,6 +60,18 @@ public class ModBlocks {
     public static final Block RAW_COBALT_BLOCK = registerBlock("raw_cobalt_block",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
+    // ==================== BLOCOS DE DECORAÇÃO ====================
+
+    /**
+     * Caneca (mug) - bloco colocado no mundo quando o jogador clica com o botão direito
+     * segurando o item mug. Usa modelo personalizado (Blockbench) e gira para encarar
+     * o jogador ao ser colocada (comportamento parecido com cabeça de mob).
+     * O BlockItem é registrado manualmente em ModItems (item "mug").
+     * Quebra facilmente com a mão.
+     */
+    public static final Block MUG_BLOCK = registerBlockWithoutBlockItem("mug",
+            new MugBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.STONE)));
+
     // ==================== MÉTODOS DE REGISTRO ====================
 
     /**
@@ -76,10 +89,9 @@ public class ModBlocks {
 
     /**
      * Registra apenas o bloco, SEM criar um BlockItem.
-     * Útil para blocos que não precisam aparecer no inventário.
-     * (Este método existe mas não é usado atualmente)
+     * Usado para o bloco mug, cujo BlockItem é registrado manualmente em ModItems
+     * (para permitir configurar a caneca como item personalizado).
      */
-    @SuppressWarnings("unused")
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(S3nhaStuffs.MOD_ID, name), block);
     }

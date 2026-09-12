@@ -1,4 +1,4 @@
-// 1.21.1	2026-09-10T16:23:38.061991844	s3nha-stuffs/Model Definitions
+// 1.21.1	2026-09-12T01:15:56.939281018	s3nha-stuffs/Model Definitions
 c32a244e8228ec63efb0a95750df883a2f80a983 assets/s3nha-stuffs/blockstates/cobalt_block.json
 e3c43770d11f284713127ce89c7a649ec1980d51 assets/s3nha-stuffs/models/item/cobalt_boots_iron_trim.json
 09cb6443838cbc11a5a45702d1e2b89ca1a2475d assets/s3nha-stuffs/models/item/cobalt_chestplate_gold_trim.json
@@ -11,6 +11,7 @@ fa68bed31aca596b3a04bac8e33a5f626c15527b assets/s3nha-stuffs/models/item/cobalt_
 fb6626482e3ba6075af3e738855507037e156d1a assets/s3nha-stuffs/models/item/cobalt_leggings_iron_trim.json
 01b1661bee4b9fe77da2afa28f5d554e93569ddc assets/s3nha-stuffs/models/item/cobalt_boots.json
 aa8975fed6f72316a76ff543ab7c1abb06e96721 assets/s3nha-stuffs/models/item/cobalt_chestplate_emerald_trim.json
+1c11e106691846c9ebbb02456b7d46c942cc1ae6 assets/s3nha-stuffs/models/item/mug_cocoa.json
 e29f1974c856bd79536adc98ef91d5963c625a7f assets/s3nha-stuffs/models/item/cobalt_shovel.json
 5e699145f19fc418f1891cefd99cd41896cad4fa assets/s3nha-stuffs/models/item/cobalt_helmet_redstone_trim.json
 b787b396241bbaacb67367ccea08575b24a98c7a assets/s3nha-stuffs/models/item/cobalt_helmet_lapis_trim.json
@@ -42,12 +43,12 @@ c80c7ddf18590044aafd79ab5ec5867307e152a8 assets/s3nha-stuffs/models/item/cobalt_
 098020cba10c9fd768a7b9eae1886258d8f22234 assets/s3nha-stuffs/models/item/cobalt_helmet_emerald_trim.json
 fb6f9f0a52a4faecceb4b12354b3fdcebb823326 assets/s3nha-stuffs/models/item/cobalt_deepslate_ore.json
 49be7af1242d95c5ad85bb3a8811693c42e1315f assets/s3nha-stuffs/models/item/cobalt_helmet_iron_trim.json
-25aace57de4110560681fa2243e201f2e27ce101 assets/s3nha-stuffs/models/item/cobalt_helmet_netherite_trim.json
 65606f281f0926667068065af32170df04db5b67 assets/s3nha-stuffs/models/item/cobalt_chestplate_netherite_trim.json
+25aace57de4110560681fa2243e201f2e27ce101 assets/s3nha-stuffs/models/item/cobalt_helmet_netherite_trim.json
 d0ffe611cba06bd5c4b37e74cea0f86ede263b5b assets/s3nha-stuffs/models/item/cobalt_helmet_amethyst_trim.json
 ef863a0a42b65665da853a6d26e1041fa3ff551e assets/s3nha-stuffs/models/item/cobalt_boots_diamond_trim.json
-564029846e979bc347e5eabddac0c83696762ce1 assets/s3nha-stuffs/models/item/cobalt_boots_lapis_trim.json
 5e55a377b31cdf74d786ae8004519e2ad88a1697 assets/s3nha-stuffs/models/item/cobalt_leggings_gold_trim.json
+564029846e979bc347e5eabddac0c83696762ce1 assets/s3nha-stuffs/models/item/cobalt_boots_lapis_trim.json
 45e126453247df4c4eccfc6c944890b43c6b67c2 assets/s3nha-stuffs/models/item/cobalt_helmet.json
 5e6e235a89cc6aa7949c975821207208eee50bc0 assets/s3nha-stuffs/models/item/cobalt_sword.json
 bd0e3ec84af11e61556a7aea4f47a6366101fd89 assets/s3nha-stuffs/models/item/cobalt_boots_gold_trim.json
@@ -61,4 +62,5 @@ ffb0c6ff050f42f48e4174f25baa12657dd229e0 assets/s3nha-stuffs/models/item/cobalt_
 8709aaf86a94aabd2dd7de9b670f25d1b12432ac assets/s3nha-stuffs/models/item/cobalt_leggings_netherite_trim.json
 e04a08a4046fde1cc3d2ee6b737e31a289f73bb5 assets/s3nha-stuffs/blockstates/cobalt_ore.json
 4fd5538fbdd7f320dde8da363c9aeaf421be371b assets/s3nha-stuffs/models/item/cobalt_helmet_diamond_trim.json
+a23616e17b1a8dfb1ceee9656b97c05a6f63ff40 assets/s3nha-stuffs/models/item/mug.json
 7c2a4a49f8f99b5ff23eed55773a777c192bbe0d assets/s3nha-stuffs/models/item/cobalt_chestplate_copper_trim.json

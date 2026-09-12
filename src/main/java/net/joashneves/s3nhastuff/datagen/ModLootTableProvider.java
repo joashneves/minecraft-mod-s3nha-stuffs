@@ -51,6 +51,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.COBALT_BLOCK);
         // Bloco raw: dropa o próprio bloco (igual raw_iron_block)
         addDrop(ModBlocks.RAW_COBALT_BLOCK);
+
+        // ==================== DECORAÇÃO ====================
+        // Caneca: dropa o próprio item (mug) quando quebrada
+        addDrop(ModBlocks.MUG_BLOCK);
     }
 
     /**

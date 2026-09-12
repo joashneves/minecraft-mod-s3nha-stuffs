@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.joashneves.s3nhastuff.block.ModBlocks;
 import net.joashneves.s3nhastuff.item.ModItems;
+import net.minecraft.block.Block;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
@@ -39,17 +40,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         // Lista de itens que podem ser derretidos para obter lingote de cobalt
         // raw_cobalt e cobalt_ore ambos dão 1 lingote ao serem derretidos
         List<ItemConvertible> COBALT_SMELTABLES = List.of(ModItems.RAW_COBALT, ModBlocks.COBALT_ORE);
-
         // Smelting: usa forno normal, 200 ticks (10 segundos), 0.25 XP
         offerSmelting(exporter, COBALT_SMELTABLES, RecipeCategory.MISC, ModItems.COBALT_INGOT, 0.25f, 200, "cobalt");
         // Blasting: usa forno de lascador, metade do tempo (100 ticks = 5 segundos)
         offerBlasting(exporter, COBALT_SMELTABLES, RecipeCategory.MISC, ModItems.COBALT_INGOT, 0.25f, 200, "cobalt");
-
         // Derretimento do bloco raw de cobalt: 1 bloco raw = 9 lingots
         // (igual ao raw_iron_block que dá 9 iron_ingots)
         // NOTA: o offerSmelting não suporta count, então criamos os JSONs manualmente
         // em src/main/resources/data/s3nha-stuffs/recipe/ com "count": 9
-
         // ==================== BLOCOS DE ARMAZENAMENTO (9→1 e 1→9) ====================
         // Recepção de bloco de lingots: 9 lingots = 1 bloco (como ouro/ferro)
         offerCobaltBlockRecipe(exporter);
@@ -59,19 +57,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerRawCobaltBlockRecipe(exporter);
         // Reversão: 1 raw_cobalt_block = 9 raw_cobalt
         offerRawCobaltBlockReverseRecipe(exporter);
-
         // ==================== FERRAMENTAS ====================
         offerCobaltSwordRecipe(exporter);
         offerCobaltPickaxeRecipe(exporter);
         offerCobaltAxeRecipe(exporter);
         offerCobaltShovelRecipe(exporter);
         offerCobaltHoeRecipe(exporter);
-
         // ==================== ARMADURAS ====================
         offerCobaltHelmetRecipe(exporter);
         offerCobaltChestplateRecipe(exporter);
         offerCobaltLeggingsRecipe(exporter);
         offerCobaltBootsRecipe(exporter);
+        // ==================== BEBIDAS ====================
+        offerMugCocoaRecipe(exporter);
+        offerMugrecipe(exporter);
     }
 
     // ==================== RECEITAS DE BLOCOS DE ARMAZENAMENTO ====================
@@ -253,6 +252,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("R R")
                 .input('R', ModItems.COBALT_INGOT)
                 .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
+                .offerTo(exporter);
+    }
+
+    // ==================== RECEITAS DE BEBIDAS ====================
+
+    /**
+     * Caneca de cacau: caneca vazia + coco.
+     * Receita shapeless (a posição dos itens não importa).
+     */
+    private void offerMugCocoaRecipe(RecipeExporter exporter) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.MUG_COCOA)
+                .input(ModItems.MUG)
+                .input(Items.COCOA_BEANS)
+                .criterion(hasItem(ModItems.MUG), conditionsFromItem(ModItems.MUG))
+                .offerTo(exporter);
+    }
+    private void offerMugrecipe(RecipeExporter exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.MUG)
+                .pattern("R R")
+                .pattern(" R ")
+                .input('R', Items.QUARTZ_BLOCK)
+                .criterion(hasItem(Items.QUARTZ_BLOCK), conditionsFromItem(Items.QUARTZ_BLOCK))
                 .offerTo(exporter);
     }
 

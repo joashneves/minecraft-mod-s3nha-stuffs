@@ -69,5 +69,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.COBALT_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.COBALT_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.COBALT_BOOTS);
+
+        // Bebidas
+        itemModelGenerator.register(ModItems.MUG, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUG_COCOA, Models.GENERATED);
     }
 }

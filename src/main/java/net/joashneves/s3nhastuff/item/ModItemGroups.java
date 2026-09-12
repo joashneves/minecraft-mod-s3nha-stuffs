@@ -43,6 +43,9 @@ public class ModItemGroups {
                         entries.add(ModItems.COBALT_CHESTPLATE);
                         entries.add(ModItems.COBALT_LEGGINGS);
                         entries.add(ModItems.COBALT_BOOTS);
+                        // Bebidas
+                        entries.add(ModItems.MUG);
+                        entries.add(ModItems.MUG_COCOA);
                     }).build());
 
     /**
