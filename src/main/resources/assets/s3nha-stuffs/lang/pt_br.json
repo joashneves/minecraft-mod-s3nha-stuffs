@@ -1,0 +1,26 @@
+{
+  "item.s3nha-stuffs.cobalt_ingot": "Lingote de Cobalto",
+  "item.s3nha-stuffs.raw_cobalt": "Cobalto Bruto",
+
+  "item.s3nha-stuffs.cobalt_sword": "Espada de Cobalto",
+  "item.s3nha-stuffs.cobalt_pickaxe": "Picareta de Cobalto",
+  "item.s3nha-stuffs.cobalt_axe": "Machado de Cobalto",
+  "item.s3nha-stuffs.cobalt_shovel": "Pá de Cobalto",
+  "item.s3nha-stuffs.cobalt_hoe": "Enxada de Cobalto",
+
+  "item.s3nha-stuffs.cobalt_helmet": "Capacete de Cobalto",
+  "item.s3nha-stuffs.cobalt_chestplate": "Peitoral de Cobalto",
+  "item.s3nha-stuffs.cobalt_leggings": "Calças de Cobalto",
+  "item.s3nha-stuffs.cobalt_boots": "Botas de Cobalto",
+
+  "block.s3nha-stuffs.mug": "Caneca",
+  "item.s3nha-stuffs.mug_cocoa": "Caneca de Cacau",
+
+  "block.s3nha-stuffs.cobalt_ore": "Minério de Cobalto",
+  "block.s3nha-stuffs.cobalt_deepslate_ore": "Minério de Cobalto em Ardósia",
+  "block.s3nha-stuffs.cobalt_block": "Bloco de Cobalto",
+  "block.s3nha-stuffs.raw_cobalt_block": "Bloco de Cobalto Bruto",
+
+  "itemGroup.s3nha-stuffs.mod_s3nha_blocks": "S3nha Stuffs - Blocos",
+  "itemGroup.s3nha-stuffs.mod_s3nha_items": "S3nha Stuffs - Itens"
+}

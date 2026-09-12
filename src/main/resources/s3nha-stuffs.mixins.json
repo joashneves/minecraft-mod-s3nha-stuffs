@@ -3,7 +3,8 @@
 	"package": "net.joashneves.s3nhastuff.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"TorchflowerLightMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
